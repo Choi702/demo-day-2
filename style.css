@@ -1,0 +1,13 @@
+h1 {
+  color: black
+
+
+}
+ul {
+  list-style-image: url('MewMew.jpg');
+  list-style-type: circle;
+  list-style-position:  inside;
+}
+*{
+  margin-top: 10px;
+}

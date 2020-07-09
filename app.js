@@ -65,18 +65,24 @@ if(jaeRealPersonAnswer === 'y' || jaeRealPersonAnswer === 'yes' || jaeRealPerson
 jaeAnswer()
 
 
-/*
+function jaeQuestion (){
 var jaeHobbieQuestion = prompt ('Do Jae have a person hobbie?(y/n)');
 
   if(jaeHobbieQuestion === 'y' || jaeHobbieQuestion === 'Y' || jaeHobbieQuestion === 'Yes' || jaeHobbieQuestion === 'yes' || jaeHobbieQuestion === ''){
     alert('Awesome everyone needs a hobbie of some sort');
   } else if(jaeHobbieQuestion ==='n' || jaeHobbieQuestion === 'N' || jaeHobbieQuestion === 'NO' || jaeHobbieQuestion === "no"){
     alert('You need to take up a hobbie')
-    // console.log ('jaeHobbieQuestion' + jaeHobbieQuestion); 
+     console.log ('jaeHobbieQuestion' + jaeHobbieQuestion); 
 
+}  
 }
+jaeQuestion()
+
+function myQuestion(){
+
+ 
 // got some help from TA syklar to get the queston 6 working better. I was a little wonky at first 
-// console.log ('jaeAgeAnswer' + jaeAgeAnswer);
+console.log ('jaeAgeAnswer' + jaeAgeAnswer);
 for(var i = 0; i < 4; i++){
 var jaeAgeAnswer = prompt('How old is Jae');
     jaeAgeAnswer = parseInt(jaeAgeAnswer)
@@ -95,7 +101,9 @@ var jaeAgeAnswer = prompt('How old is Jae');
       alert('No more guessing, Answer: im 45 LOL')
     }
   }
-  
+}
+  myQuestion()
+  /*
     
 for(var i = 0; i < 6; i++){
   var jaeMulitpleQuestion = prompt('Is Jae Crazy');

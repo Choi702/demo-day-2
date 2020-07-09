@@ -67,7 +67,8 @@ var jaeHobbieQuestion = prompt ('Do Jae have a person hobbie?(y/n)');
     alert('You need to take up a hobbie')
     // console.log ('jaeHobbieQuestion' + jaeHobbieQuestion); 
 
-}  
+}
+// got some help from TA syklar to get the queston 6 working better. I was a little wonky at first 
 // console.log ('jaeAgeAnswer' + jaeAgeAnswer);
 for(var i = 0; i < 4; i++){
 var jaeAgeAnswer = prompt('How old is Jae');
@@ -92,7 +93,9 @@ var jaeAgeAnswer = prompt('How old is Jae');
 for(var i = 0; i < 6; i++){
   var jaeMulitpleQuestion = prompt('Is Jae Crazy');
     var j = ['heck yeah, hes crazy', 'heck no, he is crazy' , 'heck no, he may be crazy'];
-   console.log(i)
+
+  // got help from TA  Merry to get Array figured out and working properly
+  //  console.log(i)
     if (jaeMulitpleQuestion == j[0]){
     alert('heck yeah, hes crazy')}
     if (jaeMulitpleQuestion == j[1]){

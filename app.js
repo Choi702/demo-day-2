@@ -45,10 +45,11 @@ if(jaeRealPersonQuestion === 'y' ){
  
 }
 yourName()
-/*
+
 // got some help from Jack to figure out else if and alerts
+function jaeAnswer (){
 var jaeRealPersonAnswer = prompt ('Does Jae likes answering questions about himself? (y/n)');
-// console.log ('jjaeRealPersonAnswer' +  jaeRealPersonAnswer);
+ console.log ('jaeRealPersonAnswer' +  jaeRealPersonAnswer);
 
 if(jaeRealPersonAnswer === 'y' || jaeRealPersonAnswer === 'yes' || jaeRealPersonAnswer === 'heck yeah'){ 
 
@@ -59,9 +60,12 @@ if(jaeRealPersonAnswer === 'y' || jaeRealPersonAnswer === 'yes' || jaeRealPerson
     alert('No, I dont');
   } else {
     alert("its ok to not answer")
-  }
+  }  
+}
+jaeAnswer()
 
 
+/*
 var jaeHobbieQuestion = prompt ('Do Jae have a person hobbie?(y/n)');
 
   if(jaeHobbieQuestion === 'y' || jaeHobbieQuestion === 'Y' || jaeHobbieQuestion === 'Yes' || jaeHobbieQuestion === 'yes' || jaeHobbieQuestion === ''){

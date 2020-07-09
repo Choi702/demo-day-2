@@ -103,8 +103,8 @@ var jaeAgeAnswer = prompt('How old is Jae');
   }
 }
   myQuestion()
-  /*
-    
+  
+function guessingQuestion (){
 for(var i = 0; i < 6; i++){
   var jaeMulitpleQuestion = prompt('Is Jae Crazy');
     var j = ['heck yeah, hes crazy', 'heck no, he is crazy' , 'heck no, he may be crazy'];
@@ -117,16 +117,16 @@ for(var i = 0; i < 6; i++){
     alert('heck no, he is crazy')}
     if (jaeMulitpleQuestion == j[2]){
     alert('heck no, he may be crazy')}
-    
+console.log('heck no, he might be crazy!')    
+  }  
+}
+guessingQuestion()   
 
-
-
-  }
 
   
     
 
-
+/*
 // Instructions
 // Continue to build off of your lab 02 by adding additonal functionality to your About Me Guessing Game. Work in the same repository as you did for Lab 2, and modify your README.md file to describe your project with the new features you are adding.
 

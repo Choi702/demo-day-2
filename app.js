@@ -19,8 +19,8 @@
     else - not even in the ballpark
 
 */
-
-var whatIsYourName = prompt('What is your name?');
+function yourName (){
+ var whatIsYourName = prompt('What is your name?');
 alert(whatIsYourName + ' Nice to meet you')
 
 
@@ -33,7 +33,7 @@ if(letsPlayAGame === 'y' || letsPlayAGame === 'Y' ||  letsPlayAGame === 'Yes' ||
 }
 
 var jaeRealPersonQuestion = prompt('Is Jae Choi a real person? (y/n)');
-// console.log('jaeRealPersonQuestion' + jaeRealPersonQuestion);
+ console.log('jaeRealPersonQuestion' + jaeRealPersonQuestion);
 
 if(jaeRealPersonQuestion === 'y' ){
   alert('correct its Jae'); 
@@ -42,10 +42,14 @@ if(jaeRealPersonQuestion === 'y' ){
 
   
 }
+ 
+}
+yourName()
 
 // got some help from Jack to figure out else if and alerts
+function jaeAnswer (){
 var jaeRealPersonAnswer = prompt ('Does Jae likes answering questions about himself? (y/n)');
-// console.log ('jjaeRealPersonAnswer' +  jaeRealPersonAnswer);
+ console.log ('jaeRealPersonAnswer' +  jaeRealPersonAnswer);
 
 if(jaeRealPersonAnswer === 'y' || jaeRealPersonAnswer === 'yes' || jaeRealPersonAnswer === 'heck yeah'){ 
 
@@ -56,20 +60,29 @@ if(jaeRealPersonAnswer === 'y' || jaeRealPersonAnswer === 'yes' || jaeRealPerson
     alert('No, I dont');
   } else {
     alert("its ok to not answer")
-  }
+  }  
+}
+jaeAnswer()
 
 
+function jaeQuestion (){
 var jaeHobbieQuestion = prompt ('Do Jae have a person hobbie?(y/n)');
 
   if(jaeHobbieQuestion === 'y' || jaeHobbieQuestion === 'Y' || jaeHobbieQuestion === 'Yes' || jaeHobbieQuestion === 'yes' || jaeHobbieQuestion === ''){
     alert('Awesome everyone needs a hobbie of some sort');
   } else if(jaeHobbieQuestion ==='n' || jaeHobbieQuestion === 'N' || jaeHobbieQuestion === 'NO' || jaeHobbieQuestion === "no"){
     alert('You need to take up a hobbie')
-    // console.log ('jaeHobbieQuestion' + jaeHobbieQuestion); 
+     console.log ('jaeHobbieQuestion' + jaeHobbieQuestion); 
 
+}  
 }
+jaeQuestion()
+
+function myQuestion(){
+
+ 
 // got some help from TA syklar to get the queston 6 working better. I was a little wonky at first 
-// console.log ('jaeAgeAnswer' + jaeAgeAnswer);
+console.log ('jaeAgeAnswer' + jaeAgeAnswer);
 for(var i = 0; i < 4; i++){
 var jaeAgeAnswer = prompt('How old is Jae');
     jaeAgeAnswer = parseInt(jaeAgeAnswer)
@@ -88,8 +101,10 @@ var jaeAgeAnswer = prompt('How old is Jae');
       alert('No more guessing, Answer: im 45 LOL')
     }
   }
+}
+  myQuestion()
   
-    
+function guessingQuestion (){
 for(var i = 0; i < 6; i++){
   var jaeMulitpleQuestion = prompt('Is Jae Crazy');
     var j = ['heck yeah, hes crazy', 'heck no, he is crazy' , 'heck no, he may be crazy'];
@@ -102,16 +117,16 @@ for(var i = 0; i < 6; i++){
     alert('heck no, he is crazy')}
     if (jaeMulitpleQuestion == j[2]){
     alert('heck no, he may be crazy')}
-    
+console.log('heck no, he might be crazy!')    
+  }  
+}
+guessingQuestion()   
 
-
-
-  }
 
   
     
 
-
+/*
 // Instructions
 // Continue to build off of your lab 02 by adding additonal functionality to your About Me Guessing Game. Work in the same repository as you did for Lab 2, and modify your README.md file to describe your project with the new features you are adding.
 
@@ -177,4 +192,4 @@ for(var i = 0; i < 6; i++){
 
 
 
-
+*/

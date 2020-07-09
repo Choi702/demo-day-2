@@ -19,8 +19,8 @@
     else - not even in the ballpark
 
 */
-
-var whatIsYourName = prompt('What is your name?');
+function yourName (){
+ var whatIsYourName = prompt('What is your name?');
 alert(whatIsYourName + ' Nice to meet you')
 
 
@@ -33,7 +33,7 @@ if(letsPlayAGame === 'y' || letsPlayAGame === 'Y' ||  letsPlayAGame === 'Yes' ||
 }
 
 var jaeRealPersonQuestion = prompt('Is Jae Choi a real person? (y/n)');
-// console.log('jaeRealPersonQuestion' + jaeRealPersonQuestion);
+ console.log('jaeRealPersonQuestion' + jaeRealPersonQuestion);
 
 if(jaeRealPersonQuestion === 'y' ){
   alert('correct its Jae'); 
@@ -42,7 +42,10 @@ if(jaeRealPersonQuestion === 'y' ){
 
   
 }
-
+ 
+}
+yourName()
+/*
 // got some help from Jack to figure out else if and alerts
 var jaeRealPersonAnswer = prompt ('Does Jae likes answering questions about himself? (y/n)');
 // console.log ('jjaeRealPersonAnswer' +  jaeRealPersonAnswer);
@@ -177,4 +180,4 @@ for(var i = 0; i < 6; i++){
 
 
 
-
+*/

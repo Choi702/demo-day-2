@@ -1,13 +1,36 @@
-h1 {
-  color: black
 
 
+body  {
+      background-color: BEIGE;
 }
-ul {
-  list-style-image: url('MewMew.jpg');
-  list-style-type: circle;
-  list-style-position:  inside;
+
+h1  {
+    display: inline;
+    border: solid 2px black;
+    padding: 5px;
+    margin: 5px 40px 20px 40px;
+    background-color:bisque;
+    color: blue;
+    font-family: 'Lucida Sans';
+    text-align: right;
 }
-*{
-  margin-top: 10px;
+
+p  {
+  background-color: cadetblue;
+}
+
+h2 {
+  background-color: crimson;
+}
+
+h3 {
+  background-color: darkolivegreen;
+}
+
+h4 {
+    background-color: darkslategray;
+}
+
+h5 {
+    background-color: forestgreen;
 }

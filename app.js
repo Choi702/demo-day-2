@@ -43,7 +43,7 @@ function questionTwo(){
   var jaeRealPersonQuestion = prompt('Is Jae Choi a real person? (y/n)');
   console.log('jaeRealPersonQuestion' + jaeRealPersonQuestion);
 
-  if(jaeRealPersonQuestion === 'y'){
+  if(jaeRealPersonQuestion === 'y' || jaeRealPersonQuestion === 'Y' ){
     alert('correct its Jae'); 
   }  else if(jaeRealPersonQuestion === 'n'){
     alert('Its not Jae');
@@ -126,30 +126,28 @@ function myQuestion(){
 }
   myQuestion()
 
+
+  // got help from TA  Merry to get Array figured out and working properly
+  //  console.log(i)
   
 function questionSix(){
   for(var i = 0; i < 6; i++){
     var jaeMulitpleQuestion = prompt('Is Jae Crazy');
-    var j = ['heck yeah hes crazy', 'heck no hes crazy' , 'heck no he may be crazy'];
-
-  // got help from TA  Merry to get Array figured out and working properly
-  //  console.log(i)
-    if (jaeMulitpleQuestion == j[0]){
-      alert('heck yeah hes crazy')
-    }
-    if (jaeMulitpleQuestion == j[1]){
-       alert('heck no hes crazy')
-    }
-    if (jaeMulitpleQuestion == j[2]){ 
-      console.log('heck no he might be crazy!')    
-      alert('heck no he may be crazy')
-      break;
-    }
-
+    var j = ['heck no he may be crazy' , 'heck no he is crazy'];
+    
+    if (jaeMulitpleQuestion === j[0] || jaeMulitpleQuestion === j[1]){ 
+    console.log('heck no he might be crazy!')    
+    alert('you got it right1')
+    break;
+    
+    
+  }
+  }
+    
   } 
 
-}
-questionSix()  
+
+questionSix();  
 alert(whatIsYourName)
 
   

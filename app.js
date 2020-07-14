@@ -143,8 +143,13 @@ function questionSix(){
     
   }
   }
+
+  
+
+
+}  
     
-  } 
+  
 
 
 questionSix();  

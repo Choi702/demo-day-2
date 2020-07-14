@@ -14,15 +14,18 @@ body  {
 
 }
 
+
+
 h1  {
     display: inline;
+    margin: 10px;
     border: solid 2px black;
     padding: 5px;
     margin: 5px 40px 20px 40px;
     background-color:bisque;
     color: blue;
     font-family: 'Lucida Sans';
-    text-align: right;
+    text-align: center;
 }
 
 p  {
@@ -48,6 +51,8 @@ h4 {
     background-color: bisque
     ;
  }
+
+ 
 
  
 

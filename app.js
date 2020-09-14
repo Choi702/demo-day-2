@@ -20,36 +20,39 @@
 
 */
 var whatIsYourName = 'no name'
-console.log ('Start of my page')
-function yourName(){
+console.log('Start of my page')
+function yourName() {
   whatIsYourName = prompt('What is your name?');
   alert(whatIsYourName + ' Nice to meet you')
 
 
 }
-function questionOne(){
+function questionOne() {
   var letsPlayAGame = prompt('Lets play a game? (y/n)');
-  if(letsPlayAGame === 'y' || letsPlayAGame === 'Y' ||  letsPlayAGame === 'Yes' || letsPlayAGame === 'YES'){
-    alert('Lets begin')
-  } else if(letsPlayAGame === 'n' || letsPlayAGame === 'N' || letsPlayAGame === 'No' || letsPlayAGame === 'NO'){
-    alert('You Suck!!')
+  if (letsPlayAGame === 'y' || letsPlayAGame === 'Y' || letsPlayAGame === 'Yes' || letsPlayAGame === 'YES') {
+    alert(whatIsYourName + ' YOU ROCK!!' + ' Lets begin');
+  } else if (letsPlayAGame === 'n' || letsPlayAGame === 'N' || letsPlayAGame === 'No' || letsPlayAGame === 'NO') {
+    alert(whatIsYourName + ' You Suck!!');
+
+
   }
-  console.log ('finished the first function')
+
+  console.log('finished the first function')
 }
-  
 
 
-function questionTwo(){
-  var jaeRealPersonQuestion = prompt('Is Jae Choi a real person? (y/n)');
+
+function questionTwo() {
+  var jaeRealPersonQuestion = prompt('Is Jae from Washington state originally? (y/n)');
   console.log('jaeRealPersonQuestion' + jaeRealPersonQuestion);
 
-  if(jaeRealPersonQuestion === 'y' || jaeRealPersonQuestion === 'Y' ){
-    alert('correct its Jae'); 
-  }  else if(jaeRealPersonQuestion === 'n'){
-    alert('Its not Jae');
+  if (jaeRealPersonQuestion === 'y' || jaeRealPersonQuestion === 'Y' || jaeRealPersonQuestion === 'Yes' || jaeRealPersonQuestion === 'YES') {
+    alert('NO ' + whatIsYourName + ' He is not from Washington State!');
+  } else if (jaeRealPersonQuestion === 'n' || jaeRealPersonQuestion === 'N' || jaeRealPersonQuestion === 'No' ||              jaeRealPersonQuestion === 'NO') {
+    alert('You are correct ' + whatIsYourName + ' Jae is originally from Las Vegas');
 
-  } 
-  console.log ('finsihed my second function')
+  }
+  console.log('finished my second function')
 }
 yourName()
 questionOne()
@@ -57,106 +60,110 @@ questionTwo()
 
 // got some help from Jack to figure out else if and alerts
 
-function questionThree (){
-var jaeRealPersonAnswer = prompt ('Does Jae likes answering questions about himself? (y/n)');
+function questionThree() {
+  var jaeRealPersonAnswer = prompt('Does Jae likes answering questions about himself? (y/n)');
 
 
-  console.log ('jaeRealPersonAnswer' +  jaeRealPersonAnswer);
+  console.log('jaeRealPersonAnswer' + jaeRealPersonAnswer);
 
-  if(jaeRealPersonAnswer === 'y' || jaeRealPersonAnswer === 'yes' || jaeRealPersonAnswer === 'heck yeah'){ 
+  if (jaeRealPersonAnswer === 'y' || jaeRealPersonAnswer === 'yes' || jaeRealPersonAnswer === 'heck yeah') {
 
     alert('Of Course. Jae likes to answer');
-  } else if(jaeRealPersonAnswer === 'n' || jaeRealPersonAnswer === 'no' || jaeRealPersonAnswer === 'NO' || jaeRealPersonAnswer === 'No'){  
+  } else if (jaeRealPersonAnswer === 'n' || jaeRealPersonAnswer === 'N' || jaeRealPersonAnswer === 'No' || jaeRealPersonAnswer === 'No') {
     alert('I guess not. Jae dont like question');
-  } else if(jaeRealPersonAnswer === 'maybe'){
+  } else if (jaeRealPersonAnswer === 'maybe') {
     alert('No, I dont');
   } else {
     alert("its ok to not answer")
-  }  
+  }
 }
-questionThree() 
+questionThree()
 
 
-function questionFour(){
-  var jaeTravel = prompt ('Does Jae like to travel much? (y/n)');
-  if(jaeTravel === 'y' || jaeTravel === 'Y' || jaeTravel === 'Yes' || jaeTravel==='YES'){
-    alert ('Heck Yeah, lets blow this popsicle stand!');
-  } else if(jaeTravel === 'n'  || jaeTravel === 'N' || jaeTravel === 'No' || jaeTravel === 'NO'){
-    alert ('Oh no, you should try traveling, ITS GREAT!');
+function questionFour() {
+  var jaeTravel = prompt('Does Jae like to travel much? (y/n)');
+  if (jaeTravel === 'y' || jaeTravel === 'Y' || jaeTravel === 'Yes' || jaeTravel === 'YES') {
+    alert('Heck Yeah, Jae loves to travel');
+  } else if (jaeTravel === 'n' || jaeTravel === 'N' || jaeTravel === 'No' || jaeTravel === 'NO') {
+    alert('Sorry you guessed wrong');
   }
 
 }
 questionFour()
 
 
-function questionFive(){
-  var jaeHobbieQuestion = prompt ('Do Jae have a person hobbie?(y/n)');
+function questionFive() {
+  var jaeHobbieQuestion = prompt('Do Jae have a person hobbie?(y/n)');
 
-  if(jaeHobbieQuestion === 'y' || jaeHobbieQuestion === 'Y' || jaeHobbieQuestion === 'Yes' || jaeHobbieQuestion === 'yes'){
-    alert('Awesome everyone needs a hobbie of some sort');
+  if (jaeHobbieQuestion === 'y' || jaeHobbieQuestion === 'Y' || jaeHobbieQuestion === 'Yes' || jaeHobbieQuestion === 'yes') {
+    alert('Correct Jae likes to go camping and exploring');
 
-  } 
-  else if(jaeHobbieQuestion ==='n' || jaeHobbieQuestion === 'N' || jaeHobbieQuestion === 'NO' || jaeHobbieQuestion === "no"){
-    alert('You need to take up a hobbie')
-     console.log ('jaeHobbieQuestion' + jaeHobbieQuestion); 
+  }
+  else if (jaeHobbieQuestion === 'n' || jaeHobbieQuestion === 'N' || jaeHobbieQuestion === 'NO' || jaeHobbieQuestion === "no") {
+    alert('You did not get that right')
+    console.log('jaeHobbieQuestion' + jaeHobbieQuestion);
 
-  }  
+  }
 }
 questionFive()
 
 // got some help from TA syklar to get the queston 6 working better. I was a little wonky at first 
-function myQuestion(){
-  for(var i = 0; i < 4; i++){
+function myQuestion() {
+  for (var i = 0; i < 4; i++) {
     var jaeAgeAnswer = prompt('How old is Jae');
     jaeAgeAnswer = parseInt(jaeAgeAnswer)
-    if (jaeAgeAnswer <= 44){
-      alert('too low!!') 
-    } 
-    if (jaeAgeAnswer  >= 46){  
+    if (jaeAgeAnswer <= 44) {
+      alert('too low!!')
+    }
+    if (jaeAgeAnswer >= 46) {
       alert('too high')
     }
-    if (jaeAgeAnswer === 45){
+    if (jaeAgeAnswer === 45) {
       alert('GREAT JOB, You will go along way Grasshopper!');
       break;
     }
-    if (i === 3){
+    if (i === 3) {
       alert('No more guessing, Answer: im 45 LOL')
     }
   }
 }
-  myQuestion()
+myQuestion()
 
 
-  // got help from TA  Merry to get Array figured out and working properly
-  //  console.log(i)
-  
-function questionSix(){
-  for(var i = 0; i < 6; i++){
+// got help from TA  Merry to get Array figured out and working properly
+//  console.log(i)
+
+function questionSix() {
+  for (var i = 0; i < 6; i++) {
     var jaeMulitpleQuestion = prompt('Is Jae Crazy');
-    var j = ['heck no he may be crazy' , 'heck no he is crazy'];
-    
-    if (jaeMulitpleQuestion === j[0] || jaeMulitpleQuestion === j[1]){ 
-    console.log('heck no he might be crazy!')    
-    alert('you got it right1')
-    break;
-    
-    
+    var j = ['maybe', 'maybe not', 'no', 'no way', 'heck yeah', 'yes'];
+
+    if (jaeMulitpleQuestion === j[0] || jaeMulitpleQuestion === j[3]) {
+      console.log('maybe')
+      alert('you got it right! ' + whatIsYourName);
+      break;
+
+
+    }
   }
-  }
-
-  
 
 
-}  
-    
-  
 
 
-questionSix();  
+}
+
+
+
+
+questionSix();
 alert(whatIsYourName)
 
-  
-    
+
+function questionTotalTally() {
+
+}
+
+
 
 /*
 // Instructions

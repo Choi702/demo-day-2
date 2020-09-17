@@ -14,11 +14,14 @@ body  {
 
 }
 
+body > header {
+  display: block
+}
 
 
 h1  {
-    display: inline;
-    margin: 10px;
+    display: block;
+  
     border: solid 2px black;
     padding: 5px;
     margin: 5px 40px 20px 40px;
@@ -28,12 +31,17 @@ h1  {
     text-align: center;
 }
 
+
+
 p  {
   background-color: cadetblue;
 }
 
 h2 {
   background-color: crimson;
+  
+
+
 }
 
 h3 {

@@ -46,7 +46,7 @@ function questionTwo() {
   var jaeRealPersonQuestion = prompt('Is Jae from Washington state originally? (y/n)');
   console.log('jaeRealPersonQuestion' + jaeRealPersonQuestion);
 
-  if (jaeRealPersonQuestion === 'y' || jaeRealPersonQuestion === 'Y' || jaeRealPersonQuestion === 'Yes' || jaeRealPersonQuestion === 'YES') {
+  if (jaeRealPersonQuestion === 'y' || jaeRealPersonQuestion === 'Y' || jaeRealPersonQuestion === 'Yes' || jaeRealPersonQuestion === 'YES' || jaeRealPersonQuestion === 'yes') {
     alert('NO ' + whatIsYourName + ' He is not from Washington State!');
   } else if (jaeRealPersonQuestion === 'n' || jaeRealPersonQuestion === 'N' || jaeRealPersonQuestion === 'No' ||              jaeRealPersonQuestion === 'NO') {
     alert('You are correct ' + whatIsYourName + ' Jae is originally from Las Vegas');
@@ -66,26 +66,22 @@ function questionThree() {
 
   console.log('jaeRealPersonAnswer' + jaeRealPersonAnswer);
 
-  if (jaeRealPersonAnswer === 'y' || jaeRealPersonAnswer === 'yes' || jaeRealPersonAnswer === 'heck yeah') {
+  if (jaeRealPersonAnswer === 'y' || jaeRealPersonAnswer === 'Y' || jaeRealPersonAnswer === 'Yes' || jaeRealPersonAnswer === 'yes') {
 
-    alert('Of Course. Jae likes to answer');
+    alert('Of Course. Jae likes to answer questions about himself');
   } else if (jaeRealPersonAnswer === 'n' || jaeRealPersonAnswer === 'N' || jaeRealPersonAnswer === 'No' || jaeRealPersonAnswer === 'No') {
-    alert('I guess not. Jae dont like question');
-  } else if (jaeRealPersonAnswer === 'maybe') {
-    alert('No, I dont');
-  } else {
-    alert("its ok to not answer")
+    alert('I guess not. Jae hates being asked quesitons about himself, party pooper');
+  } 
   }
-}
 questionThree()
 
 
 function questionFour() {
   var jaeTravel = prompt('Does Jae like to travel much? (y/n)');
-  if (jaeTravel === 'y' || jaeTravel === 'Y' || jaeTravel === 'Yes' || jaeTravel === 'YES') {
+  if (jaeTravel === 'Yes' || jaeTravel === 'yes' || jaeTravel === 'Y' || jaeTravel === 'y') {
     alert('Heck Yeah, Jae loves to travel');
-  } else if (jaeTravel === 'n' || jaeTravel === 'N' || jaeTravel === 'No' || jaeTravel === 'NO') {
-    alert('Sorry you guessed wrong');
+  } else if (jaeTravel === 'n' || jaeTravel === 'N' || jaeTravel === 'No' || jaeTravel === 'no') {
+    alert('Sorry you guessed wrong, Jae does not like to travel at all');
   }
 
 }
@@ -96,11 +92,11 @@ function questionFive() {
   var jaeHobbieQuestion = prompt('Do Jae have a person hobbie?(y/n)');
 
   if (jaeHobbieQuestion === 'y' || jaeHobbieQuestion === 'Y' || jaeHobbieQuestion === 'Yes' || jaeHobbieQuestion === 'yes') {
-    alert('Correct Jae likes to go camping and exploring');
+    alert('Correct Jae likes to go camping and exploring out in the wild');
 
   }
   else if (jaeHobbieQuestion === 'n' || jaeHobbieQuestion === 'N' || jaeHobbieQuestion === 'NO' || jaeHobbieQuestion === "no") {
-    alert('You did not get that right')
+    alert('You did not get that right, Jae loves camp and explore the wild')
     console.log('jaeHobbieQuestion' + jaeHobbieQuestion);
 
   }
@@ -140,7 +136,7 @@ function questionSix() {
 
     if (jaeMulitpleQuestion === j[0] || jaeMulitpleQuestion === j[3]) {
       console.log('maybe')
-      alert('you got it right! ' + whatIsYourName);
+      alert('you got it right! ' + whatIsYourName + ' here is your final score ' + 'you score');
       break;
 
 
@@ -153,15 +149,11 @@ function questionSix() {
 }
 
 
-
-
 questionSix();
 alert(whatIsYourName)
 
 
-function questionTotalTally() {
 
-}
 
 
 

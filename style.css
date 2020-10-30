@@ -1,72 +1,71 @@
 
 
-body  {
+  body  {
 
 
-      background-image: url("https://i.pinimg.com/originals/93/50/55/935055c542ec90cd73007a64f4e898d9.gif"); 
-      border: 2px solid black;
-      padding: 25px;
-      background-repeat: no-repeat; 
-      background-size: cover
-     
+        background-image: url("https://i.pinimg.com/originals/93/50/55/935055c542ec90cd73007a64f4e898d9.gif"); 
+        border: 2px solid black;
+        padding: 25px;
+        background-repeat: no-repeat; 
+        background-size: cover
+      
+    
+
+  }
+
+  body > header {
+    display: block
+  }
+
+
+  h1  {
+      display: block;
+    
+      border: solid 2px black;
+      padding: 5px;
+      margin: 5px 40px 20px 40px;
+      background-color:bisque;
+      color: blue;
+      font-family: 'Lucida Sans';
+      text-align: center;
+  }
+
+
+
+  p  {
+    background-color: cadetblue;
+  }
+
+  h2 {
+    background-color: crimson;
     
 
 
-}
+  }
 
-body > header {
-  display: block
-}
+  h3 {
+    background-color: darkolivegreen;
+  }
 
+  h4 {
+      background-color: darkslategray;
+  }
+  h5 {
+      background-color: burlywood;
 
-h1  {
-    display: block;
+  }
+  h5 > li {
+      background-color: bisque
+      ;
+  }
+
   
-    border: solid 2px black;
-    padding: 5px;
-    margin: 5px 40px 20px 40px;
-    background-color:bisque;
-    color: blue;
-    font-family: 'Lucida Sans';
-    text-align: center;
-}
 
-
-
-p  {
-  background-color: cadetblue;
-}
-
-h2 {
-  background-color: crimson;
   
 
 
-}
+  
 
-h3 {
-  background-color: darkolivegreen;
-}
-
-h4 {
-    background-color: darkslategray;
-}
- h5 {
-    background-color: burlywood;
-
- }
- h5 > li {
-    background-color: bisque
-    ;
- }
-
- 
-
- 
-
-
- 
-
-   
+    
 
 

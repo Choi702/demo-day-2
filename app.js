@@ -21,6 +21,7 @@ function questionOne() {
     alert(whatIsYourName + ' BOOO!!!, you should really ask him some questions, he might amaze you!!');
     totalIncorrect++;
   }
+ 
   console.log('finished the first function')
 }
 

@@ -1,4 +1,4 @@
-# demo-day-2
+# my-bio
 Interactive questions that we created in class
 
 # Author #
